@@ -1,0 +1,8 @@
+Django~=4.2
+psycopg2-binary
+django-split-settings
+python-decouple
+django-stubs[compatible-mypy]
+structlog
+
+django-migration-linter
