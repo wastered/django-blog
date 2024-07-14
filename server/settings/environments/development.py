@@ -25,3 +25,4 @@ INSTALLED_APPS += (
     # https://github.com/3YOURMIND/django-migration-linter
     'django_migration_linter',
 )
+
