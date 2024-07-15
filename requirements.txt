@@ -6,3 +6,6 @@ django-stubs[compatible-mypy]
 structlog
 
 django-migration-linter
+
+django-taggit==3.0.0
+Markdown==3.4.1
