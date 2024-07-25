@@ -18,10 +18,13 @@ from server.settings.components import config, BASE_DIR
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 SECRET_KEY = config('DJANGO_SECRET_KEY')
 
+SITE_ID = 1
+
 # Application definition
 INSTALLED_APPS = [
     # Your apps go here:
     'server.apps.blog',
+    'taggit',
 
     # Default django apps:
     'django.contrib.auth',
@@ -29,6 +32,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 
     # django-admin:
     'django.contrib.admin',

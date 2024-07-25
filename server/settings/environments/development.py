@@ -24,6 +24,5 @@ INSTALLED_APPS += (
     # Linting migrations:
     # https://github.com/3YOURMIND/django-migration-linter
     'django_migration_linter',
-    'taggit',
 )
 
